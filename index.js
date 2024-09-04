@@ -35,9 +35,9 @@ client.on("ready", () => {
 
   //Important Changing Area
 charModMail.ModMail(client, {
-  guildID: "1272739732333527090", //put your guild id here
-  categoryID: "1277822943497551872", //put your category id here
-  staffRole: "1277822800555540566", //put your staff role id here
+  guildID: "1273749158590677125", //put your guild id here
+  categoryID: "1273800027483013240", //put your category id here
+  staffRole: "1280686078357143634", //put your staff role id here
   embedColor: "#2f3136", //change the hax color code if you want
   anonymousReply: false, //make it false if only the staff can reply the user or make it true so anyone can reply.
   closedTitle: "Your Mod Mail Has Been Closed",
