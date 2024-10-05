@@ -35,9 +35,9 @@ client.on("ready", () => {
 
   //Important Changing Area
 charModMail.ModMail(client, {
-  guildID: "1273749158590677125", //put your guild id here
-  categoryID: "1273800027483013240", //put your category id here
-  staffRole: "1280686078357143634", //put your staff role id here
+  guildID: "1284781133841825846", //put your guild id here
+  categoryID: "1285927322779910174", //put your category id here
+  staffRole: "1285028228754575523", //put your staff role id here
   embedColor: "#2f3136", //change the hax color code if you want
   anonymousReply: false, //make it false if only the staff can reply the user or make it true so anyone can reply.
   closedTitle: "Your Mod Mail Has Been Closed",
@@ -45,7 +45,8 @@ charModMail.ModMail(client, {
   staffOpenedTitle: "User Opened Mod Mail",
   staffOpenedMessage: "The User Opened A Mod Mail And Is Now Wait For A Reply!",
   userOpenedTitle: "Mod Mail Created",
-  userOpenedMessage: "You Created A Mod Mail Ticket!",
+  userOpenedMessage: "You Created A Mod Mail Ticket Now Tell why did you created thid modmail?"
+ !",
   wrongEmoji: "❎", // if you want you can change but don't change it recommaned.
   rightEmoji: "✅" // if you want you can change but don't change it recommaned.
 })
