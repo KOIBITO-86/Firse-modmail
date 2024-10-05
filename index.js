@@ -1,10 +1,3 @@
-/*
-Created With char-mod-mail Package.
-Created By Odd Coder.
-Odd Coder Discord: https://discord.gg/7KtdeePrHV
-Odd Coder Youtube: https://www.youtube.com/channel/UCwsiWQMSomXFjWWpRQbc35A
-Thanks for using our coded bot.
-*/
 const Discord = require('discord.js');
 const allIntents = new Discord.Intents(32767);
 const client = new Discord.Client({
@@ -45,8 +38,7 @@ charModMail.ModMail(client, {
   staffOpenedTitle: "User Opened Mod Mail",
   staffOpenedMessage: "The User Opened A Mod Mail And Is Now Wait For A Reply!",
   userOpenedTitle: "Mod Mail Created",
-  userOpenedMessage: "You Created A Mod Mail Ticket Now Tell why did you created thid modmail?"
- !",
+  userOpenedMessage: "You Created A Mod Mail Ticket Now explain why you made the modmail!",
   wrongEmoji: "❎", // if you want you can change but don't change it recommaned.
   rightEmoji: "✅" // if you want you can change but don't change it recommaned.
 })
