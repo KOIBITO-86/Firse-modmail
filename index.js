@@ -27,7 +27,7 @@ const charModMail = require('char-mod-mail');
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("Watching Tickets in Team Immortal");
+  client.user.setActivity("Watching Modmails);
   
   // Important Changing Area
   charModMail.ModMail(client, {
