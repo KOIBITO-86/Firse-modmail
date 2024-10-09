@@ -27,22 +27,27 @@ const charModMail = require('char-mod-mail');
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity("Watching Modmails);
+  
+  // Set Discord activity
+  client.user.setActivity({
+    name: "Modmails",
+    type: "WATCHING"
+  });
   
   // Important Changing Area
   charModMail.ModMail(client, {
-    guildID: "1272739732333527090", // put your guild id here
-    categoryID: "1293358208009633813", // put your category id here
-    staffRole: "1293358022843961455", // put your staff role id here
-    embedColor: "#2f3136", // change the hex color code if you want
-    anonymousReply: false, // make it false if only staff can reply or true for anyone
+    guildID: "1272739732333527090", 
+    categoryID: "1293358208009633813", 
+    staffRole: "1293358022843961455", 
+    embedColor: "#2f3136", 
+    anonymousReply: false, 
     closedTitle: "Your Mod Mail Has Been Closed",
     closedMessage: "A Staff Member Has Deleted Your Mod Mail!",
     staffOpenedTitle: "User Opened Mod Mail",
     staffOpenedMessage: "The User Opened A Mod Mail And Is Now Waiting For A Reply!",
     userOpenedTitle: "Mod Mail Created",
     userOpenedMessage: "You Created A Mod Mail Ticket. Now explain why you made the modmail!",
-    wrongEmoji: "❎", // if you want, you can change but don't change it (recommended)
-    rightEmoji: "✅" // if you want, you can change but don't change it (recommended)
+    wrongEmoji: "❎", 
+    rightEmoji: "✅" 
   });
 });
